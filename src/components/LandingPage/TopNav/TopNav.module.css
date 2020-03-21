@@ -1,0 +1,25 @@
+       :root {
+          --element-spacing: 1.5rem;
+          /*add variable for item spacing that can be applied to all CSS elements. Makes refactoring easier. */
+      }
+      
+      .top-nav {
+          display: flex;
+          justify-content: space-between;
+          /*spaces 2 divs in TopNav to the far left and far right */
+          align-items: center;
+          margin: var(--element-spacing);
+      }
+      
+      .left>* {
+          margin-right: var(--element-spacing);
+      }
+      
+      .right {
+          display: flex;
+          align-items: center;
+      }
+      
+      .right>* {
+          margin-left: var(--element-spacing);
+      }
