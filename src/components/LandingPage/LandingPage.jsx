@@ -8,11 +8,15 @@ import { SearchSuggestions } from './SearchSuggestions/SearchSuggestions';
 
 export function LandingPage() {
     return (
-        <div >
+        <div className={styles.landing}>
+        <div>
             <TopNav /> { /* display as 1st child element of landing page */}
-            <Logo />
-            <SearchBar />
-            <SearchSuggestions />
+            <div className={styles['search-area']}>
+                <Logo />
+                <SearchBar />
+                <SearchSuggestions />
+            </div>
+        </div>
         </div>
     );
 }
