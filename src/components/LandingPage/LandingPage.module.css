@@ -1,3 +1,9 @@
+.logo {
+    width: 300px;
+    height: 80px;
+    margin: 50px 0;
+}
+
 .search-area {
     display: flex;
     flex-direction: column;
