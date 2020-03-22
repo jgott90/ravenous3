@@ -1,0 +1,9 @@
+.logo {
+    display: flex;
+}
+
+.logo_icon {
+    font-size: 100px;
+    margin-left: 3px;
+    color: purple;
+}
