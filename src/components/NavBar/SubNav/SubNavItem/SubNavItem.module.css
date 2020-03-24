@@ -1,10 +1,15 @@
-.item {
+.sub-nav-item {
+    padding: .35rem;
     display: flex;
-    margin-top: 1rem;
+    align-items: center;
+    border-left: 1px solid rgb(230, 230, 230);
 }
 
-.suggestion {
-    font-size: .75rem;
-    margin-left: 4px;
-    margin-right: 2.5rem;
+.sub-nav-item>* {
+    margin-right: 4px;
+    /*applies to everything that's direct descendent of SNI*/
+}
+
+.right-border {
+    border-right: 1px solid rgb(230, 230, 230);
 }
